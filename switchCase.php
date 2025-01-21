@@ -1,10 +1,10 @@
 <?php
 
-switch ($idade = 30) {
-    case 30:
+switch ($idade = 10) {
+    case ($idade >=30):
         echo "Voce pode entrar!\n";
             break;
-    case 15:
+    case ($idade >=15):
         echo "Voce precisa de permissao!\n";
             break;
     default:
